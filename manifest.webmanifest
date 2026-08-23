@@ -1,10 +1,17 @@
 {
+  "id": "/hybrid-f/",
   "name": "HYBRID F",
   "short_name": "HYBRID F",
   "description": "Lower-body strength cycle and running, one logbook.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
+  "categories": [
+    "health",
+    "fitness",
+    "sports"
+  ],
   "background_color": "#0a0d13",
   "theme_color": "#0a0d13",
   "icons": [

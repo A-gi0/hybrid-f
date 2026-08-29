@@ -1,4 +1,4 @@
-const CACHE = 'hybrid-1787509143593'
+const CACHE = 'hybrid-1788000057574'
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './favicon.png', './apple-touch-icon.png', './icon-192.png', './icon-512.png']
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()))
